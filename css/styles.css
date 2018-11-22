@@ -153,6 +153,8 @@ nav h1 a {
   text-align: left;
   max-width: 470px;
   width: 80%;
+  display: flex;
+  flex-direction: column;
 }
 #restaurants-list .restaurant-img {
   background-color: #ccc;
@@ -297,9 +299,9 @@ nav h1 a {
   width: 100%;
 }
 
-/* ====================== Media Queries ====================== */
+/* ====================== Responsive ====================== */
 
-@media (min-width: 458px) {
+@media (min-width: 360px) {
   .filter-options {
     text-align: left;
   }
